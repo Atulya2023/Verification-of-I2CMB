@@ -1,0 +1,101 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session skip_do_file="0" version="3">
+ <app argc="5">
+  <argv value="vsim" pos="0"/>
+  <argv value="design.bin" pos="1"/>
+  <argv value="-do" pos="2"/>
+  <argv value="set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do" pos="3"/>
+  <argv value="+_sv_debug_+vsim-64-onfinishstop-classdebug-uvmcontrol=all-msgmodeboth-permit_unmatched_virtual_intf-sv_seed123456-msglimiterror-msglimitcount20-qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc-libqrun.out/work-visualizer=design.bin-statslogqrun.out/stats_logqrun_opt-appendlog-csession=incr-csessionid=3" pos="4"/>
+ </app>
+ <window_config>
+  <dockareas left="300" bottom="266" right="450" top="0"/>
+  <taborder left="files+testbench+" bottom="transcript+" right="breakpoints+variables+locals+"/>
+  <activetab left="testbench" activewindow="transcript" bottom="transcript" right="locals"/>
+  <window visible="1" type="files" y="0" undocked="0" x="0" dock_location="left"/>
+  <window visible="1" type="testbench" y="0" undocked="0" x="0" dock_location="left"/>
+  <window visible="1" type="breakpoints" y="0" undocked="0" x="0" dock_location="right"/>
+  <window visible="1" type="variables" y="0" undocked="0" x="0" dock_location="right"/>
+  <window visible="1" type="locals" y="0" undocked="0" x="0" dock_location="right"/>
+  <window visible="1" type="transcript" y="0" undocked="0" x="0" dock_location="bottom"/>
+  <window width="1920" visible="1" type="rtl" y="32" undocked="0" height="1011" x="0"/>
+  <window width="300" visible="1" type="structure" y="63" undocked="1" height="980" x="611" dock_location="left"/>
+  <window width="1920" visible="1" type="wave" y="32" undocked="1" height="1011" x="0" dock_location="bottom"/>
+  <window visible="1" type="source" firstVisibleLine="2" y="0" undocked="0" path="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/project_benches/proj_3/testbench/top.sv" x="0" dock_location="center"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile tagName="sim" waveType="0" fileName="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/project_benches/proj_3/sim/qwave.db"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser filepath="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/project_benches/proj_3/testbench/top.sv" instancename="top" primary="true"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 3"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curRadix="2" curDisplayTimeUnitStr="1ns" curActiveWaveFile="sim" customDisplayTimeUnitListStr="" curDisplayTimeUnit="-9">
+   <curTime lowtime="0" hightime="0"/>
+  </watchTower_cur_setting>
+  <files/>
+  <testbench/>
+  <breakpoints/>
+  <variables CA="0" VA="0" UPF="0"/>
+  <locals/>
+  <transcript/>
+  <structure selection="top"/>
+  <wave name="Wave0">
+   <timeunit value="11"/>
+   <frequnit value="2"/>
+   <showdiff value="0"/>
+  </wave>
+ </gui>
+ <wave_mgr sync_time_range="0">
+  <waveWindow value_tooltip="0" signalHeight="18" alignBaseName="0" trackViewToTime="1" displayRadixWithValue="1" snapToEdge="1" primNudge="1" swapRepresentationOfX="0" displayFileTag="1" showSecCursor="0" displayTimeUnitStr="1ns" showMarkers="1" justifySignalPath="Right" displayTimeUnit="-9" displayScopeName="1" wintype="4" secNudge="1" displayLeadingZeros="0" waveWidth="1603" nameWidth="215" displayGlobalView="1" displayGrid="0" valueWidth="57">
+   <window name="Wave0">
+    <timeunit value="11"/>
+    <frequnit value="2"/>
+    <showdiff value="0"/>
+   </window>
+   <viewPort>
+    <beginTime lowtime="0" hightime="0"/>
+    <endTime lowtime="1" hightime="0"/>
+    <beginViewTime lowtime="0" hightime="0"/>
+    <endViewTime lowtime="1" hightime="0"/>
+    <beginLastViewTime lowtime="0" hightime="0"/>
+    <endLastViewTime lowtime="1" hightime="0"/>
+   </viewPort>
+   <primCursor lowtime="0" hightime="0"/>
+   <wavetclcommands>
+    <tcl command="onerror resume&#xa;wave update off&#xa;wave clearselection&#xa;"/>
+    <tcl commandblock="custom radix definitions"></tcl>
+    <tcl command="wave update off"/>
+    <tcl command="wave zoom range 0 1"/>
+    <tcl command="wave group top -backgroundcolor #004466"/>
+    <tcl command="wave add -group top top.WB_ADDR_WIDTH -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.WB_DATA_WIDTH -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.NUM_I2C_BUSSES -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.clk -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.rst -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.cyc -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.stb -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.we -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.ack -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.adr -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.dat_wr_o -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.dat_rd_i -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top top.irq -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top {top.scl[0]} -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave add -group top {top.sda[0]} -tag sim -radix hexadecimal -select"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave update on"/>
+    <tcl command="wave top 0"/>
+    <tcl command=""/>
+   </wavetclcommands>
+  </waveWindow>
+ </wave_mgr>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="top"/>
+</session>

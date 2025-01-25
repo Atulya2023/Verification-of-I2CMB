@@ -1,0 +1,2 @@
+comp_i2cmb_pkg:
+	vlog +incdir+$(ECE745_PROJECT_HOME)/verification_ip/ncsu_pkg +incdir+$(ECE745_PROJECT_HOME)/verification_ip/interface_packages/wb_pkg/wb_pkg +incdir+$(ECE745_PROJECT_HOME)/verification_ip/interfaces_packages/i2c_pkg/i2c_pkg +incdir+$(ECE745_PROJECT_HOME)/verification_ip/environment_packages/i2cmb_env_pkg $(ECE745_PROJECT_HOME)/verification_ip/environment_packages/i2cmb_env_pkg/i2cmb_env_pkg.sv

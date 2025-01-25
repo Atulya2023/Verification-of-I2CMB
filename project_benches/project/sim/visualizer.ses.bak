@@ -1,0 +1,132 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session skip_do_file="0" version="3">
+ <app argc="5">
+  <argv value="vsim" pos="0"/>
+  <argv value="design.bin" pos="1"/>
+  <argv value="-do" pos="2"/>
+  <argv value="set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do" pos="3"/>
+  <argv value="+_sv_debug_+vsim-64-onfinishstop-classdebug-uvmcontrol=all-msgmodeboth-permit_unmatched_virtual_intf-sv_seed123456-msglimiterror-msglimitcount20-qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc-libqrun.out/work-visualizer=design.bin-statslogqrun.out/stats_logqrun_opt-appendlog-csession=incr-csessionid=3" pos="4"/>
+ </app>
+ <window_config>
+  <dockareas right="450" top="0" bottom="266" left="300"/>
+  <taborder bottom="transcript+" left="files+structure+"/>
+  <activetab activewindow="transcript" bottom="transcript" left="structure"/>
+  <window dock_location="left" y="0" type="files" x="0" visible="1" undocked="0"/>
+  <window dock_location="left" y="0" type="structure" x="0" visible="1" undocked="0"/>
+  <window dock_location="bottom" y="0" type="transcript" x="0" visible="1" undocked="0"/>
+  <window y="32" type="rtl" height="800" x="50" width="1200" visible="1" undocked="0"/>
+  <window dock_location="left" y="0" type="testbench" x="0" visible="0" undocked="0"/>
+  <window dock_location="bottom" y="32" type="wave" height="1011" x="0" width="1920" visible="1" undocked="1"/>
+  <window dock_location="center" path="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/project_benches/lab_1/testbench/top.sv" y="0" firstVisibleLine="2" type="source" x="0" visible="1" undocked="0"/>
+  <window dock_location="center" path="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/verification_ip/interface_packages/wb_pkg/src/wb_if.sv" id="1" y="0" firstVisibleLine="0" type="source" x="0" visible="0" undocked="0"/>
+  <window dock_location="center" path="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/project_benches/lab_1/rtl/conditioner_mux.vhd" id="2" y="0" firstVisibleLine="155" type="source" x="0" visible="0" undocked="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile waveType="0" tagName="F0" fileName="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/project_benches/lab_1/sim/qwave.db"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser filepath="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/project_benches/lab_1/testbench/top.sv" instancename="top" primary="true"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 3"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/verification_ip/interface_packages/wb_pkg/src/wb_if.sv" instancename="top.wb_bus"/>
+   <sourcetclcommands>
+    <tcl command="src activate source1"/>
+    <tcl command="src top 1"/>
+   </sourcetclcommands>
+   <srcbrowser filepath="/mnt/ncsudrive/a/amahesh9/ece745/lab_1_provided_files/ece745_projects/project_benches/lab_1/rtl/conditioner_mux.vhd" testbench="1" instancename="top.DUT.iicmb_m_inst0.conditioner_mux_inst0.scl_sda_gen(0).line__190"/>
+   <sourcetclcommands>
+    <tcl command="src activate source2"/>
+    <tcl command="src top 156"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting curDisplayTimeUnit="-9" curRadix="2" customDisplayTimeUnitListStr="" curActiveWaveFile="F0" curDisplayTimeUnitStr="1ns">
+   <curTime hightime="0" lowtime="0"/>
+  </watchTower_cur_setting>
+  <files/>
+  <structure selection="top"/>
+  <transcript/>
+  <wave name="Wave0">
+   <timeunit value="11"/>
+   <frequnit value="2"/>
+   <showdiff value="0"/>
+  </wave>
+ </gui>
+ <wave_mgr sync_time_range="0">
+  <waveWindow secNudge="1" trackViewToTime="1" showMarkers="1" signalHeight="18" waveWidth="1603" displayLeadingZeros="0" valueWidth="57" nameWidth="215" displayFileTag="1" justifySignalPath="Right" value_tooltip="0" snapToEdge="1" wintype="4" displayRadixWithValue="1" alignBaseName="0" displayTimeUnitStr="1ns" showSecCursor="1" swapRepresentationOfX="0" primNudge="1" displayScopeName="1" displayGrid="0" displayTimeUnit="-9" displayGlobalView="1">
+   <window name="Wave0">
+    <timeunit value="11"/>
+    <frequnit value="2"/>
+    <showdiff value="0"/>
+   </window>
+   <viewPort>
+    <beginTime hightime="0" lowtime="0"/>
+    <endTime hightime="0" lowtime="1"/>
+    <beginViewTime hightime="0" lowtime="0"/>
+    <endViewTime hightime="0" lowtime="1"/>
+    <beginLastViewTime hightime="0" lowtime="0"/>
+    <endLastViewTime hightime="0" lowtime="1"/>
+   </viewPort>
+   <primCursor hightime="0" lowtime="0"/>
+   <secCursor hightime="0" lowtime="0"/>
+   <wavetclcommands>
+    <tcl command="onerror resume&#xa;wave update off&#xa;wave clearselection&#xa;"/>
+    <tcl commandblock="custom radix definitions"></tcl>
+    <tcl command="wave update off"/>
+    <tcl command="wave zoom range 0 1"/>
+    <tcl command="wave group top -backgroundcolor #004466"/>
+    <tcl command="wave add -group top top.WB_ADDR_WIDTH -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.WB_DATA_WIDTH -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.NUM_I2C_BUSSES -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.clk -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.rst -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.cyc -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.stb -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.we -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.ack -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.adr -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.dat_wr_o -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.dat_rd_i -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top top.irq -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top {top.scl[0]} -tag F0 -radix hexadecimal"/>
+    <tcl command="wave add -group top {top.sda[0]} -tag F0 -radix hexadecimal"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave group top.wb_bus -backgroundcolor #004466"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.ADDR_WIDTH -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.DATA_WIDTH -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.clk_i -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.rst_i -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.cyc_o -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.stb_o -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.ack_i -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.adr_o -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.we_o -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.cyc_i -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.stb_i -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.ack_o -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.adr_i -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.we_i -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.dat_o -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.dat_i -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.master_write.addr -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.master_write.data -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.master_read.addr -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.master_read.data -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.master_monitor.addr -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.master_monitor.data -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave add -group top.wb_bus top.wb_bus.master_monitor.we -tag F0 -radix hexadecimal -select"/>
+    <tcl command="wave insertion [expr [wave index insertpoint] + 1]"/>
+    <tcl command="wave update on"/>
+    <tcl command="wave top 0"/>
+    <tcl command=""/>
+   </wavetclcommands>
+  </waveWindow>
+ </wave_mgr>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="top"/>
+</session>
